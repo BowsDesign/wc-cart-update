@@ -12,7 +12,7 @@
 
 	<?php do_action( 'woocommerce_before_cart' ); ?>
 
-/* and before form opening // Open ID Div to target with jQuery */
+// and before form opening // Open ID Div to target with jQuery */
 <div id="ajaxreload">
 
 #Then add zone to display alert zone while reload is running to keep user posted about what's happening, to use GIF, download it and then place it in images files in your theme -->
