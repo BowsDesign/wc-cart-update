@@ -9,9 +9,9 @@
 
 
 # Just after code 
-```php
-<?php do_action( 'woocommerce_before_cart' ); ?>
-```
+
+	<?php do_action( 'woocommerce_before_cart' ); ?>
+
 # and before form opening // Open ID Div to target with jQuery 
 <div id="ajaxreload">
 
