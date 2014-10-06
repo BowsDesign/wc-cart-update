@@ -6,6 +6,7 @@ Woocommerce - How to trigger automatic totals update in cart page when quantity 
 This is pretty simple but I hope this will help if needed.
 
 // Code to use with Wordpress Woocommerce - Has been tested with WC 2.1.12
+
 // The point is to automatically update the cart page totals when user modify quantity of an item. This is pretty simple if ajax is ok.
 
 1 - Clone Woocommerce template cart.php into your theme directory /woocommerce/cart/cart.php. This will override default template.
