@@ -9,19 +9,19 @@
 
 # Just after code 
 	<?php do_action ('woocommerce_before_cart'); ?>
-``` # and before form opening // Open ID Div to target with jQuery 
+//# and before form opening // Open ID Div to target with jQuery 
 	<div id="ajaxreload">
 
 # Then add zone to display alert zone while reload is running to keep user posted about what's happening, to use GIF, download it and then place it in images files in your theme 
 	<div class="loading"><img src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" class="loader" /> <?php _e('Udpating your cart...'); ?></div>
 
-``` # Let's now define which part of form is triggered by quantity modification, the function which is interesting is to trigger submit "update_cart" 
+//# Let's now define which part of form is triggered by quantity modification, the function which is interesting is to trigger submit "update_cart" 
 # We are going to add an ID to this submit button in way of targeting it with JS 
 	<input type="submit" class="button" name="update_cart" id="calculation" value="<?php _e( 'Update Cart', 'woocommerce' ); ?>" />
 
-```# Just before code 
+//# Just before code 
 	<?php do_action( 'woocommerce_after_cart_table' ); ?>
-```# Close ID Div 
+//# Close ID Div 
 	</div>
 
 # Then do not edit anything else and go to the end of the page to add script 
