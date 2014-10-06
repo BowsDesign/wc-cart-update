@@ -1,11 +1,12 @@
-<?php 
+```php
 // Code to use with Wordpress Woocommerce
 // The point is to automatically update the cart page totals when user modify quantity of an item. This is pretty simple if ajax is ok.
 
 // 1 - Clone Woocommerce template cart.php into your theme directory /woocommerce/cart/cart.php. This will override default template.
 // 2 - Open template cart.php from your theme to edit it 
 
-// LET'S GO! ?>
+// LET'S GO!
+```
 
 <!-- Just after code 
 <?php do_action( 'woocommerce_before_cart' ); ?>
